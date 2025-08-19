@@ -45,29 +45,62 @@
       color: #493de7;
     }
 
-    h1 {
-        font-family: "Archivo Black", sans-serif;
-        text-align: center;
-        font-size: 50px;
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      gap: 80px;
     }
+
+    h1 {
+      font-family: "Archivo Black", sans-serif;
+      text-align: center;
+      font-size: 50px;
+    }
+
+    h2 {
+      font-family: "Archivo Black", sans-serif;
+      color: white;
+      font-size: 40px;
+      margin-top: 7%;
+      text-align: center;
+    }
+
+    h3 {
+      color: white;
+      font-size: 35px;
+      text-align: center;
+    }
+
     
     .box {
-        width: 100%;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .quadrado {
-        width: 500px;
-        height: 500px;
-        margin-top: 10%;
-        background-color: #2d2942;
-        border-radius: 30px;
-        border: none;
-        cursor: pointer;
+      width: 900px;
+      height: 500px;
+      background-color: #2d2942;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
     }
 
-
+    button {
+      width: 250px;
+      height: 100px;
+      font-family: "Archivo Black", sans-serif;
+      border-radius: 30px;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: rgb(209, 209, 14);
+    }
     
