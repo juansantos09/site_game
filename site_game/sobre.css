@@ -1,4 +1,4 @@
-    body {
+body {
         margin: 0%;
         background-color: #080424;
     }
@@ -49,33 +49,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 10%;
+      margin-top: 5%;
       margin-bottom: 10%;
-      gap: 80px;
     }
 
-    h1 {
-      font-family: "Archivo Black", sans-serif;
-      text-align: center;
-      font-size: 50px;
-    }
-
-    h2 {
-      font-family: "Archivo Black", sans-serif;
-      color: white;
-      font-size: 40px;
-      text-align: center;
-    }
-
-    h3 {
-      font-family: "Archivo Black", sans-serif;
-      color: white;
-      font-size: 20px;
-      text-align: center;
-    }
-
-    
-    .box {
+    .linha {
       width: 100%;
       background-color: white;
       display: flex;
@@ -83,25 +61,9 @@
       align-items: center;
     }
 
-    .quadrado {
-      width: 700px;
-      height: 400px;
-      background-color: #2d2942;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-    }
-
-    button {
-      width: 250px;
-      height: 100px;
+    h1 {
       font-family: "Archivo Black", sans-serif;
-      border-radius: 30px;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-      background-color: rgb(209, 209, 14);
+      text-align: center;
+      font-size: 50px;
+      color: rgb(0, 0, 0);
     }
-    

@@ -1,4 +1,4 @@
-    body {
+body {
         margin: 0%;
         background-color: #080424;
     }
@@ -45,16 +45,8 @@
       color: #493de7;
     }
 
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 10%;
-      margin-bottom: 10%;
-      gap: 80px;
-    }
-
     h1 {
+      color: white;
       font-family: "Archivo Black", sans-serif;
       text-align: center;
       font-size: 50px;
@@ -63,45 +55,38 @@
     h2 {
       font-family: "Archivo Black", sans-serif;
       color: white;
-      font-size: 40px;
-      text-align: center;
+      margin-bottom: 0%;
     }
 
     h3 {
-      font-family: "Archivo Black", sans-serif;
-      color: white;
-      font-size: 20px;
-      text-align: center;
+       font-family: "Archivo Black", sans-serif;
+       color: #0e063a;
+       font-size: 30px;
+       margin-top: 0%;
     }
 
-    
     .box {
-      width: 100%;
-      background-color: white;
+        width: 350px;
+        height: 400px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2d2942;
+    }
+
+    .container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
     }
 
-    .quadrado {
-      width: 700px;
-      height: 400px;
-      background-color: #2d2942;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
+    .jogos {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        margin-top: 30px; 
     }
-
-    button {
-      width: 250px;
-      height: 100px;
-      font-family: "Archivo Black", sans-serif;
-      border-radius: 30px;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-      background-color: rgb(209, 209, 14);
-    }
-    
