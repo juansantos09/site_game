@@ -54,13 +54,13 @@ body {
 
     h2 {
       font-family: "Archivo Black", sans-serif;
-      color: white;
+      color: gray;
       margin-bottom: 0%;
     }
 
     h3 {
        font-family: "Archivo Black", sans-serif;
-       color: #0e063a;
+       color: white;
        font-size: 30px;
        margin-top: 0%;
     }
