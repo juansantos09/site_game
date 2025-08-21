@@ -100,3 +100,18 @@
       flex-wrap: wrap;
       gap: 20px;
   }
+
+  .slogan {
+      font-family: "Archivo Black", sans-serif;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+  }
+
+  .titulo {
+     font-family: "Archivo Black", sans-serif;
+      text-align: center;
+      font-size: 50px;
+      color: white;
+  }
+ 
