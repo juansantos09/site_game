@@ -78,8 +78,10 @@
     h3 {
       font-family: "Archivo Black", sans-serif;
       text-align: center;
-      font-size: 16px;
+      font-size: 15px;
       color: white;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .box {
