@@ -1,0 +1,33 @@
+1. Introdução
+
+Neste trabalho, desenvolvi um site de jogos com o objetivo de apresentar jogos de forma organizada e atrativa, utilizando as linguagens HTML e CSS. O site contém um layout responsivo, cores harmoniosas e navegação simples para o usuário.
+
+
+
+2. Estrutura do Site
+
+O site é composto por várias páginas (ou seções) que incluem:
+
+Página Inicial: apresenta o nome do site, banner principal e menu de navegação.
+
+Seção de Jogos: lista dos jogos disponíveis, com imagens e descrições.
+
+Sobre o Site: informações sobre o objetivo do site e o desenvolvimento.
+
+
+
+3. Desenvolvimento (HTML e CSS)
+
+HTML: Usei elementos semânticos como <header>, <nav>, <section>, <article> e <footer> para organizar o conteúdo. Também incluí imagens, links e botões para melhorar a interatividade.
+
+CSS: Criei estilos personalizados para cores, fontes, tamanhos e layout geral. Usei flexbox para organizar itens horizontalmente e verticalmente, além de aplicar efeitos de hover em botões e imagens para melhorar a experiência do usuário.
+
+
+
+4. Funcionalidades
+
+Menu de navegação fixo no topo para facilitar o acesso às páginas.
+
+Destaque dos jogos com imagens e títulos para chamar a atenção do usuário.
+
+Layout responsivo que se ajusta a diferentes tamanhos de tela.
